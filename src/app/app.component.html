@@ -1,0 +1,43 @@
+<button (click)="connectCall()">
+  Call
+</button>
+
+<button (click)="endCall()">
+  Decline
+</button>
+
+<button (click)="onMute()">
+  Mute
+</button>
+
+<button (click)="unMute()">
+  Un Mute
+</button>
+
+
+<button (click)="onHold()">
+  Hold
+</button>
+
+
+<button (click)="unHold()">
+  UnHold
+</button>
+
+<button (click)="callAccept()">
+  Accept Call
+</button>
+
+
+<button (click)="addQ()">
+  Add Q
+</button>
+
+<button (click)="addAgent()">
+  Add New Agent
+</button>
+
+
+
+<input [(ngModel)]="dtmfVal">
+<button (click)="addDtmf()" type="submit">Add</button>
