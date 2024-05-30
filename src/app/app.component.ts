@@ -9,9 +9,9 @@ import * as JsSIP from 'jssip';
 export class AppComponent implements OnInit {
   title = 'finalSip';
 
-  host: string = 'tbcla01.cherryberrycloud.com';
-  user: any = '577';
-  pass: any = 'xpm567cfg';
+  host: string = 'bluepinesip.cherryberrycloud.com';
+  user: any = '302';
+  pass: any = '0b1Fan08';
   remoteUser: any = '04232119293';
   socketAddress: any;
   uriAddress: any;
